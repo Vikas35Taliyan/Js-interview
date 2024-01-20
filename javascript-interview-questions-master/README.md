@@ -5,7 +5,7 @@
 | No. | Questions                                                                                                                                                     |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What are Data-types in JavaScript](#what-are-data-types-in-javascript) |
-| 2   | [What is a prototype chain](#what-is-a-prototype-chain)                 |
+| 2   | [What is primitive and Non-primitive data types?](#What-is-primitive-and- Non-primitive-data-types?)                 |
 | 3   | [What is the difference between Call, Apply, and Bind](#what-is-the-difference-between-call-apply-and-bind) |
 
 
@@ -17,13 +17,23 @@
 
       **[⬆ Back to Top](#table-of-contents)**
 
-2. ### What is a prototype chain
+2. ### What is primitive and Non-primitive data types?
 
-   **Prototype chaining** is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language.
+  **Primitive data types** are basic, immutable data types directly operated upon by the javascript engine.
+Immutable refer to the property of being unchanged or unable to be modified after creation. In case of primitive being immutable means that once a primitive value is assigned, its value can not altered.
+**Non-primitive** data types are objects that are dynamically created and hold other values, including other object or primitive data type.
+Primitive:
+**Numbers**
+Numbers represent both integers and floating- point numbers. Numbers can be infinity, NAN, Bigint
+**String**
+              A string is a sequence of characters. In javascript, strings can be enclosed within the single or                             double quotes.
+**Boolean**
+               Boolean represents a logical entity and can have two values true or false.
+**Null**
+In JavaScript, null is a special value that represents the intentional absence of any object value or the absence of a value itself. It is a primitive value, and it is often used to indicate that a variable or property does not currently have a meaningful value or that it is explicitly set to no value.
+**Undefined**
+In JavaScript, undefined is a primitive value that is assigned to variables that are declared but not initialized, or to function parameters that have no corresponding argument passed during a function call. It indicates the absence of a value or the lack of an assigned value. It means values does not exist in a compiler or accessing value that is not defined, it's considered to be falsy in boolean context.
 
-   The prototype on object instance is available through **Object.getPrototypeOf(object)** or **\_\_proto\_\_** property whereas prototype on constructors function is available through **Object.prototype**.
-
-   ![Screenshot](images/prototype_chain.png)
 
    **[⬆ Back to Top](#table-of-contents)**
 
