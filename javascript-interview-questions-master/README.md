@@ -5,7 +5,7 @@
 | No. | Questions                                                                                                                                                     |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What are Data-types in JavaScript](#what-are-data-types-in-javascript) |
-| 2   | [What is primitive and Non-primitive data types?](#What-is-primitive-and- Non-primitive-data-types?)                 |
+| 2   | [What is primitive and Non-primitive data types?](#What-is-primitive-and-Non-primitive-data-types?)                 |
 | 3   | [What is the difference between Call, Apply, and Bind](#what-is-the-difference-between-call-apply-and-bind) |
 
 
